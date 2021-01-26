@@ -1,0 +1,442 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.body {
+    padding: 0;
+    background: linear-gradient(rgb(243, 237, 185), rgb(182, 238, 182));
+}
+
+.spinner {
+    position: absolute;
+    width: 100%;
+    padding-top: 80px;
+    height: 70px;
+    top: 0;
+    right: 0;
+    color: black;
+}
+.spinner .spinn {
+    right: 20px;
+    font-size: 7px;
+    position: absolute;
+}
+
+.jumbotz {
+    height: 700px;
+    position: relative;
+    margin-top: -65px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.btns button {
+    width: auto;
+}
+
+.txt {
+    position: absolute;
+    top: 20%;
+    width: 200vh;
+    left: 0;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.txt button {
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 25px;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(35, 192, 108);
+    font-size: 90px;
+}
+
+h2 {
+    color: rgb(35, 192, 108);
+    font-size: 30px;
+}
+
+p {
+    color: rgb(25, 27, 26); 
+    font-size: 25px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.global-div img {
+    height: 720px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex
+}
+
+.global-divs img {
+    height: 720px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex
+}
+
+.modal-body label {
+    font-weight: bold;
+}
+
+.navz {
+    position: relative;
+    left: 0;
+    z-index: 999;
+    top: 0;
+}
+
+.btz{
+    background-color: rgb(35, 192, 108);
+    border: none;
+    outline: none;
+}
+
+.bt-form {
+    border-radius: 99px;
+    background-color: rgb(35, 192, 108);
+    color: white;
+    position: relative;
+    border-radius: 99px;
+    width: 87%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.md-footer {
+    display: flex;
+
+}
+
+.md-footer button {
+    margin-left: 10px;
+    border-radius: 99px;
+    background-color: rgb(35, 192, 108);
+    color: white;
+    position: relative;
+    border-radius: 99px;
+    width: 87%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.modal-fluid {
+    text-align: center;
+    width: 90%;
+}
+
+.modal-fluid input {
+    border-radius: 99px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.modal-fluid .lbl {
+    font-weight: 490;
+}
+
+.modal-body input {
+    outline: none;
+    width: 90%;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 0;
+    font-weight: 500;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(35, 192, 108);
+}
+
+.modal-header {
+    width: 100%;
+}
+
+.modal-body button{
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    border-radius: 99px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(35, 192, 108);
+    transition: 0.4s;
+}
+
+.modal-header button {
+    width: 45%;
+    margin-left: 5%;
+    transform: scale(0.85);
+    border-radius: 99px;
+    position: absolute;
+    right: 7px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(35, 192, 108);
+    transition: 0.4s;
+}
+
+/* .modal-body label {
+    font-weight: normal;
+} */
+
+.modal-body button:hover, .modal-header button:hover {
+    transition: 0.4s;
+    transform: scale(0.95);
+    cursor: pointer;
+    color: white;
+}
+
+.btz {
+    margin-left: 22px;
+    color: white;
+    border-radius: 99px;
+}
+
+.md {
+    height: 700px;
+}
+
+
+@media (min-width: 290px) and (max-width: 350px) {
+
+    body {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .navz {
+        display: block;
+    }
+    
+    .title {
+        width: 100%;
+    }
+
+    .tutup {
+        position: absolute;
+        right: 0px;
+    }
+
+    .modal-fluid {
+        width: 92%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .md-ft {
+        padding-right: 10%;
+    }
+
+    .md-ft button {
+        position: relative;
+        border-radius: 99px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .navz {
+        width: 100%;
+        position: relative;
+        height: 30px;
+        display: block;
+    }
+
+    .btz {
+        margin-left: 12px;
+        color: white;
+        cursor: pointer;
+        font-weight: 500;
+        width: 125px;
+        border-radius: 99px;
+        transition: 0.4s;
+    }
+
+    .btz:hover {
+        transition: 0.4s;
+        transform: scale(0.92);
+        color: white;
+    }
+
+    .txt {
+        width: 100%;
+        margin-top: -49px;
+        padding: 10px;
+    }
+
+    h1 {
+        width: 100%;
+        position: relative;
+    }
+
+    h2 {
+        width: 90%;
+        position: relative;
+    }
+
+    .txt .kemana {
+        font-size: 58px;
+        width: 100%;
+        position: relative;
+        top: -10px;
+        padding: 20px;
+    }
+
+    .txt .bersiap {
+        position: relative;
+        top: -25px;
+    }
+
+    p{
+        width: 100%;
+        margin-left: 0;
+        position: relative;
+        margin-top: -15px;
+        font-size: 18px;
+    }
+
+    .global-divs img {
+        transform: scale(1.15);
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .global-div img {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        margin-left: -10px;
+        margin-top: -100px;
+    }
+
+    .jumbotz {
+        height: 700px;
+    }
+
+    .btns {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .modal-body label {
+        font-weight: bold;
+    }
+
+    ::-webkit-scroll {
+        display: none;
+    }
+
+    .jumbotz .global-div {
+        height: 100vh;
+    }
+
+    form span {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .spinner {
+        position: absolute;
+        width: 100%;
+        padding-top: 80px;
+        height: 70px;
+        top: 0;
+        right: 0;
+        color: black;
+    }
+    .spinner .spinn {
+        right: 20px;
+        font-size: 2px;
+        position: absolute;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 580px) {
+
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .txt {
+        width: 100%;
+        margin-top: -49px;
+        padding: 10px;
+    }
+
+    h1 {
+        width: 100%;
+        position: relative;
+    }
+
+    p{
+        width: 100%;
+        margin-left: 0;
+        position: relative;
+        margin-top: -15px;
+        font-size: 18px;
+    }
+
+    .global-div img {
+        position: relative;
+        margin-top: -185px;
+        width: 100%;
+    }
+
+    .jumbotz {
+        height: 720px;
+    }
+
+    .btns {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .modal-body label {
+        font-weight: bold;
+    }
+
+    * {
+        overflow: visible;
+    }
+
+    ::-webkit-scroll {
+        display: none;
+    }
+
+    .jumbotz .global-div {
+        height: 50%;
+        overflow: hidden;
+    }
+
+    form span {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .mdl {
+        box-shadow: 2px 1px 1px grey;
+        background-color: lightgreen;
+    }
+}

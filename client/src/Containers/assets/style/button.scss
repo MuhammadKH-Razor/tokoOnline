@@ -1,0 +1,17 @@
+.dots {
+    animation: dotsAnimation 2s infinite;
+}
+
+.btn {
+    margin-left: 110px;
+}
+
+@keyframes dotsAnimation {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: white;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.card{
+    transform: scale(0.8);
+}

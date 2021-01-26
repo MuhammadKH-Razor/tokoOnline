@@ -1,0 +1,28 @@
+.card {
+    width: auto;
+    height: auto;
+    padding: 30px 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.header-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cardBody img {
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    position: relative;
+    left: -18px;
+}

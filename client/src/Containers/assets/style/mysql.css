@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.app{
+    color: black;
+    font-size: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
